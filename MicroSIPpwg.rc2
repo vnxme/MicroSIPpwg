@@ -1,0 +1,59 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+#include "const.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+IDI_ICON1 ICON "microsip.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Text
+//
+LANGUAGE 17, 1
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION _GLOBAL_VERSION_COMMA
+ PRODUCTVERSION _GLOBAL_VERSION_COMMA
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+			VALUE "CompanyName", _GLOBAL_COMPANY
+            VALUE "FileDescription", _GLOBAL_NAME " " _GLOBAL_PWG
+            VALUE "FileVersion", _GLOBAL_VERSION
+            VALUE "LegalCopyright", _GLOBAL_COMPANY
+			VALUE "ProductDescription", _GLOBAL_NAME " " _GLOBAL_PWG
+			VALUE "ProductName", _GLOBAL_NAME " " _GLOBAL_PWG
+            VALUE "ProductVersion", _GLOBAL_VERSION
+            VALUE "OriginalFilename", _GLOBAL_NAME "pwg.exe"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
